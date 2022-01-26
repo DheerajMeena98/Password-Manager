@@ -1,0 +1,130 @@
+.your-passwords-bcg-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #5763a5;
+  width: 80%;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.your-password-search-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.your-password-heading-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.passwords-search-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.search-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.search-password-input {
+  outline: none;
+  border: 0px;
+  width: 90%;
+}
+
+.your-passwords-heading {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.number-of-passwords {
+  color: #ffffff;
+  margin-left: 10px;
+  border-radius: 2px;
+  border: 1px #94a3b8 solid;
+  text-align: center;
+  padding: 1px;
+  width: 20px;
+}
+
+.show-passwords-input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.horizontal-line {
+  width: 100%;
+}
+
+.show-passwords-text {
+  color: #ffffff;
+  font-size: 12px;
+  margin-left: 5px;
+  margin-bottom: 2px;
+}
+
+.your-passwords-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+
+.no-passwords-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 80%;
+  padding: 5px;
+}
+
+.no-passwords-text {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.no-passwords-image {
+  width: 80%;
+  height: 50%;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .your-passwords-container {
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+  }
+  .your-password-heading-container {
+    margin-right: 0px;
+  }
+
+  .your-passwords-heading {
+    color: #ffffff;
+    font-size: 20px;
+  }
+
+  .show-passwords-text {
+    font-size: 15px;
+  }
+
+  .no-passwords-text {
+    font-size: 20px;
+  }
+}

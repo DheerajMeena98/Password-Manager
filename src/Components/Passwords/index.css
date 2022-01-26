@@ -1,0 +1,123 @@
+.password-manager-bcg-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  align-items: center;
+  padding: 20px;
+}
+
+.password-manager-logo {
+  height: 40px;
+  width: 120px;
+  align-self: flex-start;
+  margin-left: 40px;
+}
+
+.add-password-container {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #5763a5;
+  justify-content: space-around;
+  width: 80%;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.add-password-card {
+  background-color: #454f84;
+  border-radius: 20px;
+  padding: 15px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80%;
+  align-self: center;
+}
+
+.add-new-password-heading {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.password-manager-sm-image {
+  display: flex;
+  width: 60%;
+  align-self: center;
+}
+
+.password-manager-lg-image {
+  width: 40%;
+  display: none;
+}
+
+.each-input-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  border-radius: 3px;
+  margin-top: 14px;
+}
+
+.website-logo {
+  height: 20px;
+  width: 20px;
+}
+
+.input-website {
+  border: 0px;
+  margin-left: 10px;
+  outline: none;
+  width: 70%;
+}
+
+.add-button {
+  height: 25px;
+  width: 80px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 8px;
+  margin-top: 10px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .password-manager-logo {
+    margin-left: 130px;
+  }
+
+  .add-password-container {
+    flex-direction: row;
+    padding: 20px;
+  }
+
+  .add-password-card {
+    padding: 15px;
+    width: 40%;
+    height: 80%;
+    align-self: center;
+  }
+
+  .add-new-password-heading {
+    font-size: 20px;
+  }
+
+  .password-manager-lg-image {
+    width: 40%;
+    display: flex;
+  }
+
+  .password-manager-sm-image {
+    display: none;
+  }
+
+  .each-input-container {
+    margin-top: 14px;
+  }
+}

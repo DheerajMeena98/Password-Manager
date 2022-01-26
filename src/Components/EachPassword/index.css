@@ -1,0 +1,81 @@
+.each-password-details-list-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #b6c3ca;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  height: 120px;
+}
+
+.each-password-details-profile-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+}
+
+.name-dp-profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  margin-left: 30px;
+  background-color: #14b8a6;
+}
+
+.each-password-details-card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.website-text {
+  height: 0px;
+  color: #ffffff;
+}
+
+.username-text {
+  height: 0px;
+  color: #ffffff;
+}
+
+.password-text {
+  height: 1px;
+  color: #ffffff;
+}
+
+.delete-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+
+.stars-image {
+  height: 10px;
+  margin-top: 15px;
+  width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .each-password-details-list-container {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px;
+  }
+}
